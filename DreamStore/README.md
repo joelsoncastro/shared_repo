@@ -18,7 +18,7 @@ A web app with mobile and browser support for vases.
 
 <b>How it works:</b>
 
-I didt it from scratch. Navigation first. By this, meaning that screens were created with 
+I did it from scratch. Navigation first. By this, meaning that screens were created with 
 viewport size, stacked next to each other like an array of containers. Floating to the right. 
 
 First container ocupies the main view. Other containers are of viewport boundaries. So, I then
