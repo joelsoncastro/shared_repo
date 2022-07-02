@@ -1,0 +1,979 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+html, body {
+   overflow: hidden;
+   overflow-y: hidden;
+   overflow-x:hidden;
+   -moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;
+   
+                                
+ }
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    /* ---------------------------------------------------------------------------------------------------------------------  PRIMARY WORKING AREA */
+    #main_container{
+      position: absolute;
+      left: 0px;
+      right: 0px;
+      top:0px;
+      bottom:0px;
+      overflow: hidden;
+      overflow-x:visible;
+      overflow-y:hidden; 
+      border: 0px transparent green;      
+      -webkit-overflow-scrolling: touch; 
+       
+    }
+
+    .css-selector {
+      -webkit-animation: AnimationName 30s ease infinite;
+      -moz-animation: AnimationName 30s ease infinite;
+      animation: AnimationName 30s ease infinite;
+  }
+  
+  @-webkit-keyframes AnimationName {
+      0%{background-position:0% 50%}
+      50%{background-position:100% 50%}
+      100%{background-position:0% 50%}
+  }
+  @-moz-keyframes AnimationName {
+      0%{background-position:0% 50%}
+      50%{background-position:100% 50%}
+      100%{background-position:0% 50%}
+  }
+  @keyframes AnimationName {
+      0%{background-position:0% 50%}
+      50%{background-position:100% 50%}
+      100%{background-position:0% 50%}
+  }
+    #screens_container{
+      position: absolute;
+      left: 0px;
+      right: 0px;
+      top:0px;
+      bottom:0px;
+      border: 0px transparent pink; 
+      display:flex;
+      flex-wrap: wrap;
+      flex-direction: column; 
+      align-content: space-between; 
+      -webkit-overflow-scrolling: touch;
+      
+      /* inserted 19/05/22 from ll_*/
+       
+      
+       
+    } 
+
+#screens_container{
+  animation-duration: 1s;
+      animation-play-state:paused;
+}
+  
+  @keyframes slide_left1{
+      from{left: 0%;}
+      to{left:-100%;}
+  }
+  
+  
+  @keyframes slide_left2{
+    from{transform: translateX(-100%)}
+    to{transform: translateX(-200%)}
+  }
+
+  @keyframes slide_left4{
+    from{transform: translateX(-200%)}
+    to{transform: translateX(-300%)}
+}
+
+@keyframes slide_left5{
+  from{transform: translateX(-300%)}
+  to{transform: translateX(-400%)}
+}
+
+@keyframes slide_left6{
+  from{transform: translateX(-400%)}
+  to{transform: translateX(-500%)}
+}
+
+@keyframes slide_left7{
+  from{transform: translateX(-500%)}
+  to{transform: translateX(-600%)}
+}
+
+
+      /* Return arrows*/
+  @keyframes slide_back_left_arrow1{
+        from{transform: translateX(-200%)}
+        to{transform: translateX(-100%)}
+  }
+
+  @keyframes slide_back_left_arrow2{
+    from{transform: translateX(-300%)}
+    to{transform: translateX(-200%)}
+}
+
+@keyframes slide_back_left_arrow3{
+  from{transform: translateX(-400%)}
+  to{transform: translateX(-300%)}
+}
+
+@keyframes slide_back_left_arrow4{
+  from{transform: translateX(-500%)}
+  to{transform: translateX(-400%)}
+}
+
+
+
+ 
+
+    #screen_1{
+      position:relative;      
+      height:100%;
+      width:100%;
+      /*background: transparent;*/
+      
+      
+      
+    }
+
+    #screen_2{      
+      position:relative;
+      height:100%;
+      width:100%;;
+      background: rgb(255, 255, 255);
+      /*border: 2px solid pink; */
+    }
+
+    #screen_3{     
+      position:relative; 
+      height:100%;
+      width:100%;
+      background: #ffffff;
+       
+    }
+
+    #screen_4{       
+      position:relative; 
+      height:100%;
+      width:100%;
+      /*background: hsl(295, 48%, 74%);*/
+      
+    }
+    
+    #screen_5{    
+      position:relative;    
+      height:100%;
+      width:100%;
+      /*background: #f86d79;*/
+            
+    }
+
+    #screen_6{    
+      position:relative;    
+      height:100%;
+      width:100%;
+      /*background: orange;*/
+            
+    }
+
+    #screen_7{    
+      position:relative;    
+      height:100%;
+      width:100%;
+      /*background: pink;*/
+            
+    }
+                                                                                  /*-------------------------- Screen 1 --------------------------*/
+
+     #logo_background{
+      position:relative;
+      top:40%;
+      left:40%;
+      z-index: 10;
+       
+     }
+
+
+     #logo_container{
+       position:absolute;
+       top:40%;
+       left:40%;
+       z-index: 11;
+     }
+
+     #path_1 {
+      fill: white;
+    }
+
+    #logo_container:hover{
+      fill: orange;
+    }
+
+    .store_cart{
+      position:absolute;
+      height:50px;
+      width:50px;
+      top:40%;
+      border:0px solid red;
+    }
+
+                                                                                   /*-------------------------- Screen 2 --------------------------*/
+
+    .header{
+      position:absolute;
+      left:0;
+      right:0;
+      border:0px solid green;
+      height: 10%;
+      
+    }
+
+    .left_arrow_container{
+      position:absolute;
+      height: 100%;
+      width:10%;
+    }
+
+    .left_arrow_1, .left_arrow_2, 
+    .left_arrow_3, .left_arrow_4{
+      position:absolute;
+      height:80px;
+      width:80px;
+      top:30%;
+      border:0px solid red;
+    }
+
+   
+
+    .header_title_container{
+      position:absolute;
+      height: 100%;
+      left:10%;
+      right:10%;
+      border:0px solid grey;
+      
+    }
+ 
+    .head_title{
+      font-family: "Open Sans";
+      font-size: 45px;
+      font-weight: 700;
+     
+      padding-left:40%;
+      padding-top:6%;
+      
+    }
+
+    .cart_container{
+      position:absolute;
+      height: 100%;
+      width:10%;
+      right:0%;
+    }
+
+    #products_main_container{
+      position: absolute;
+      top:25%;
+      left:0%;
+      right:0%;
+      bottom:0%;
+      border:4px transparent blue;
+      overflow: auto;
+      overflow-y: visible;
+      
+      display: grid;
+      grid-template-columns: auto auto ;
+      
+    }
+
+
+    .product_1, .product_3, .product_5, 
+    .product_2, .product_4, .product_6,
+    .product_7, .product_8, .product_9,
+    .product_10, .product_11, .product_12{
+      position:relative;
+      
+      margin-top:5%;
+      padding-bottom: 5%;
+      height:500px;
+      width:480px;
+      font-size: 28px;
+      background-color: transparent;
+      opacity:1;
+
+    }
+ 
+    .product_2, .product_4, .product_6{
+      top:10%;
+      left:-5%;
+    }
+
+    .product_container{
+      position:absolute;
+      background-color:#D6E6D9;
+      border-radius: 15px;
+      left:15%;
+      right:5%;
+      bottom:10%;
+      top:5%;
+      z-index: 13;
+    }
+
+    .product_container_shaddow{
+      position:absolute;
+      background-color:grey;
+      border-radius: 15px;
+      left:20%;
+      right:10%;
+      bottom:3%;
+      top:7%;
+      z-index:12;
+      background: linear-gradient(135deg, #ffffff 0%, rgba(0,0,0,0.6) 100%);
+      background-blend-mode: normal;
+      filter: blur(15px);
+    }
+
+     .images{
+       
+     
+
+     }
+    
+    .product_container_label{
+      position:absolute;
+      bottom:0%;
+      height:30%;
+      left:0%;
+      right:0%;
+      background-color:white;
+      border-bottom-left-radius: 15px;
+      border-bottom-right-radius: 15px;
+    }
+ 
+
+                                                                                       /*-------------------------- Screen 3 --------------------------*/
+
+    #store_title_container{
+      position: absolute;
+      top:10%;
+      left:0%;
+      right:0%;
+      height: 14%;
+      border:0px solid red;
+      
+    }
+    #store_title{
+      position:absolute;
+      color: #000000;
+      font-family: "Open Sans";
+      font-size: 54px;
+      font-weight: 700;
+      line-height: 22px;
+      padding-top:15%;
+      padding-left: 7%;
+    }    
+    
+    stylized{
+      color: #6B8B71;
+    }
+
+    .button_container{
+      position:absolute;
+      bottom:5%;
+      left:0%;
+      right:0%;
+      height:10%;
+      background-color: rgb(255, 255, 255);
+      border:0px solid rgb(255, 255, 255);
+      opacity: 1;
+    }
+
+    .button_element {
+      position: absolute;
+      left: 10%;
+      top: 12px;
+      right: 10%;
+      height: 70%;
+      border-radius: 10px;
+      background: linear-gradient(91deg, #d14c6d 0%, #e470a9 20.7%, #efa597 45.54%, #f2c47c 65.31%, #f9d213 100%);
+      background-blend-mode: normal;
+      z-index: 12;
+    }
+
+    .button_element_shadow {
+      position: absolute;
+      left: 10%;
+      top: 60px;
+      right: 10%;
+      height: 50%;
+      border-radius: 4px;
+      background: linear-gradient(90deg, #d14c6d 0%, #e471a9 29.64%, #ee9f99 62.25%, #f2c37c 100%);
+      background-blend-mode: normal;
+      filter: blur(16px);
+      z-index: 11;
+      
+    }
+    
+    
+     
+ 
+                                                                                        /*-------------------------- Screen 3 --------------------------*/
+
+    #product_tile_containter, #page_title_container{
+      position:absolute;
+      top:10%;
+      height:5%;
+      left:0%;
+      right:0%;
+      border: 0px solid green;
+    }
+
+    #product_title, #page_title{
+      position:absolute;
+      color: black;
+      font-family: "Open Sans";
+      font-size: 58px;
+      font-weight: 700;
+      line-height: 22px;
+      
+      top:0%;
+      height:100%;
+      margin-left:35%;
+      border:0px solid green;
+    }
+
+    #product_image_container{
+      position:absolute;
+      top:15%;
+      height:30%;
+      left:0%;
+      right:0%;
+      border:0px transparent rgb(255, 6, 6)
+    }
+
+    #product_image{
+      position:absolute;
+      top:-10%;
+      left:20%;
+      right:10%;
+      border:px transparent black;
+    }
+
+    #product_title_description_container{
+      position: absolute;
+      top:48%;
+      left:0%;
+      right:0%;
+      height:5%;
+      border: 0px transparent purple;
+      background-color: transparent;
+    }
+
+    #product_description_container{
+      position: absolute;
+      top:52%;
+      left:0%;
+      right:0%;
+      height:30%;
+      border: 0px transparent rgb(20, 14, 20);
+      background-color: transparent;
+      opacity:1;
+    }
+
+    #product_description{
+      position:absolute;
+      color: black;
+      font-family: "Open Sans";
+      font-size: 30px;
+      
+      line-height: 30px;
+      text-align: justify;
+      left:10%;
+      right:10%;
+    }
+
+    #product_title_description{
+      position:absolute;
+      color: black;
+      font-family: "Open Sans";
+      font-size: 35px;
+      font-weight: 700;
+      line-height: 22px;
+      left:10%;
+      
+    }
+
+    .feedback_container{
+      position: absolute;
+      top:68%;
+      left:0%;
+      right:0%;
+      height:5%;
+      border: 0px transparent rgb(20, 14, 20);
+      /*background-color: rgb(182, 182, 255);*/
+      opacity:1;
+    }
+
+    #share_button{
+        position:absolute;
+        left:10%
+    }
+
+    #stars{
+        position: absolute;
+        left:25%;
+    }
+    
+    .fa, .fa-star{
+      font-size:35px;
+    }
+
+    .checked {
+      color: orange;
+    }
+
+    #separation_dot{
+      position:absolute;
+      font-size: 100px;
+      left:50%;
+      top:-65px;
+    }
+
+    #comments{
+      position:absolute;
+      left:58%;
+      top: 4%;
+      font-size:25px;
+      font-family: "Open Sans";
+    }
+
+    #like_button{
+      position:absolute;
+      top:-2;
+      right:17%;
+    }
+
+    #price{
+      position:absolute;
+      right:12%;
+      font-size: 65px;
+      top:15%;
+      font-family: "Open Sans";
+    }
+
+    #AKZ{
+      position:absolute;
+      font-size:18px;
+      top:-20px;
+      
+    }
+
+    #price_container{
+      position:absolute;
+      bottom:10%;
+      height:15%;
+      left:0%;
+      right:0%;
+      /* background-color: rgb(184, 255, 184);*/
+      opacity:1;
+    }    
+
+                                                                    /*-------------------------- Screen 4 --------------------------*/
+
+    #product_summary_container{
+      position: absolute;
+      top:20%;
+      left:5%;
+      right:5%;
+      bottom:20%;
+      border:0px solid blue;
+      overflow: auto;
+      overflow-y: visible;
+      
+     
+      
+    }
+    
+    .summary_list_1, .summary_list_2, .summary_list_3, 
+    .summary_list_4, .product_sumary_total_container{
+      position:relative;
+      
+      margin-top:5%; 
+      height:200px;
+      width:100%;
+      font-size: 28px;
+      /* background-color: grey; */
+      opacity:1;
+      border-bottom: 1px solid #C1C1C1;
+    }
+
+    .product_sumary_total_container{
+      border-bottom: 0px solid #C1C1C1;
+    }
+
+    #product_summary_image{
+      position:absolute;
+       
+      height:75%;
+      width:20%;
+        
+      border-radius:8px;
+      background-color:#D6E6D9;
+    }
+    #product_summary_title{
+      position:absolute;
+      left:22%;
+      font-size: 25px;
+      font-family: "Open Sans";
+    }
+    #product_summary_quantity{
+      position:absolute;
+      left:22%;
+      top:40%;
+      font-size: 25px;
+      font-family: "Open Sans";
+    }
+    #product_summary_price{
+      position:absolute;
+      right:5%;
+      top:20%;
+      font-size: 30px;
+      font-family: "Open Sans";
+    }
+    
+    .AKZ_summary{
+      position:absolute;
+      font-size: 25px;
+      
+    }
+    #product_sumary_total_container{
+   
+    }
+    #Total{
+      position:absolute;
+      font-size: 50px;
+      font-family: "Open Sans";
+      font-weight: 700;
+    }
+    #total_sum{
+      position:absolute;
+      right:5%;
+      top:10%;
+      font-size: 30px;
+      font-family: "Open Sans";
+    }
+
+                                                                     /*-------------------------- Screen 5 --------------------------*/
+
+    #form_1_container{
+      position:absolute;
+      left:0%;
+      right:0%;
+      border:0px solid black;
+      height:20%;
+      margin-top:25%;
+      }
+
+    #form_2_container{
+      position:absolute;
+      left:0%;
+      right:0%;
+      border:0px solid green;
+      height:20%;
+      margin-top: 75%;
+      }
+
+    #form_3_container{
+      position:absolute;
+      left:0%;
+      right:0%;
+      border:0px solid red;
+      height:10%;
+      margin-top:130%;
+    }
+
+    #details_form_container, #address_form_container,
+    #form_3_container{
+      position: absolute;
+      left:5%;
+      right:0%;
+      bottom:0%;
+      top:0%;
+      font-family: "Open Sans";
+      font-size:30px;
+      border:0px transparent green;
+    }
+
+
+
+    .form_alignment{
+      position:absolute;
+      left:25%;
+      padding-top:5em;
+      background-color: #EFEFEF;
+      border-radius: 8px;;
+      right:10%;
+      padding-top:2%;
+      border:none;
+      height:80%;
+    }
+
+    #sonhador_titulo,
+    #nome,
+    #telefone,
+    #email,
+    #n_casa,
+    #rua,
+    #bairro,
+    #municipio,
+    #cidade{
+      position: relative;
+      left:0px;
+      right:0px;
+      border:0px transparent grey;
+      height:20%;
+     /* background-color:red;*/
+      top:5%;
+      height: 25%;
+    }
+
+    #payment_form_container{
+      position:absolute;
+      top:10%;
+      left:35%;
+      right:0px;
+      /*background-color:blue;*/
+
+    }
+
+
+                                                                                        /*-------------------------- Screen 6 --------------------------*/
+ 
+    #recibo{
+      position:absolute;
+      left:5%;
+      right:5%;
+      top:15%;
+      bottom:15%;
+      border: 0px solid transparent;
+
+    }
+ 
+ #detalhes_sumario_endereco,
+#produtos_sumario,#total_sumario{
+  position:relative;
+  left:0px;
+  right:0px;
+  height: 20%;
+  background: white;
+  border-bottom:1px solid #C1C1C1;
+  
+} 
+
+#produtos_sumario{
+  overflow-y:visible;
+  height:35%;
+}
+
+#total_sumario{
+  height:12%;
+}
+
+#left_container{ 
+  position:absolute;
+  left:0%;
+  right:50%;
+  top:0%;
+  bottom:0%;
+  border:0px solid black;
+}
+
+#right_container{ 
+  position:absolute;
+  right:0%;
+  left:50%;
+  top:0%;
+  bottom:0%;
+  border:0px solid black;
+}
+
+#sonhadora_titulo,
+#nome_sumario,
+#numero_sumario,
+#email_sumário {
+  position:relative;
+  left:5%;
+  font-family: "Open Sans";
+  font-size:24px;
+  font-weight: 700;
+  
+}
+
+
+#endereco_titulo,
+#casa_num_sumario,
+#rua_sumario,
+#bairro_suario,
+#municipio_sumario,
+#cidade_sumario{
+  position:relative;
+  left: 0%;
+  font-family: "Open Sans";
+  font-size:24px;
+  font-weight: 700;
+}
+
+.lista_sumario
+{
+  position:relative;
+  left:0px; 
+  right:0px;
+  height:30%;
+  background-color: transparent;
+  padding-top: 5%
+  
+}    
+
+#imagem_produto_sumario_1{
+  position:absolute;
+  height:75%;
+  width:145px;
+  border-radius:15px;
+  background-color: D6E6D9 ;
+}
+
+
+#titulo_produto_sumario_1{
+  position:absolute;
+  left:25%;
+  top:50%;
+  font-family: "Open Sans";
+  font-size:24px;
+  font-weight: 700;
+}
+
+}
+#quantidade_produto_sumario_1{
+  position:absolute;
+  left:55%;
+  top:50%;
+  font-family: "Open Sans";
+  font-size:24px;
+  font-weight: 700;
+}
+#preco_produto_sumario_1{
+  position:absolute;
+  left:75%;
+  top:50%;
+  font-family: "Open Sans";
+  font-size:24px;
+  font-weight: 700;
+}
+
+#total_titulo_sumario{
+  position:absolute;
+  font-family: "Open Sans";
+  font-size:52px;
+  font-weight: 700;
+  top:30%;
+}
+
+#valor_total_sumario{
+  position:absolute;
+  left:75%;
+  top:30%;
+  font-family: "Open Sans";
+  font-size:43px;
+  font-weight: 700;
+}
+
+#texto_de_agradecimento{
+  position:absolute;
+  left:20%;
+  top:50%;
+  right:20%;
+  height:200px;
+  border:0px solid black;
+  font-family: "Open Sans";
+  font-size:24px;
+  font-weight: 700;
+  text-align: center;
+   
+}
+
+a{
+  text-decoration: none;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+     
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    /* CSS */
+    
+      
+    
+  }
