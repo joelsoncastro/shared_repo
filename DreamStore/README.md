@@ -1,7 +1,7 @@
 # DreamStore
 A client comercial project
 
-![icon](./assets/artvasosPoster.png)
+
 
 
 A web app with mobile and browser support for vases.
