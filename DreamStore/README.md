@@ -13,7 +13,7 @@ A web app with mobile and browser support for vases.
 - Inspect (for mobile view)
 
 ⚠️</br>
--This version contains only the Frontend with mobile support. </br>  
+- This version contains only the Frontend with mobile support. </br>  
 - When viewed on mobile (ios browsers) we experience the [white space issue]()
 
 <b>How it works:</b>
