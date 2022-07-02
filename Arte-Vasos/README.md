@@ -10,7 +10,7 @@ Usage:
 - Navigate to main file in localhost (index.html)
 - Inspect (for mobile view)
 
-note:   ⚠️ This version contains only the Frontend with mobile support.⚠️
+note:   ⚠️ This version contains only the Frontend with mobile support.⚠️ </br>
 issues: ⚠️ when viewed on mobile (ios browsers) we experience the [white space issue]()⚠️
 
 How it works:
