@@ -1,8 +1,9 @@
 $(document).ready(function () {
-
+    
+    
+    
     var screen_time= setInterval(first_screen_nav, 5000);
     product_nav()
-
 
     function first_screen_nav() 
     {
@@ -10,11 +11,13 @@ $(document).ready(function () {
         var gt_startpage_main_container = document.querySelector("#screens_container");
         gt_startpage_main_container.style.transform = 'translateX(-100%)';
         console.log("here");
-        window.clearInterval(screen_time) 
+        window.clearInterval(screen_time)        
     } 
 
     function product_nav()
     {
+       
+        console.log("Done 2")
         
         var item_number=1
         var screen_cont= document.getElementById("screens_container");
