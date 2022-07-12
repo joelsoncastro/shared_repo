@@ -249,8 +249,8 @@ html, body {
 
      #logo_background{
       position:relative;
-      top:40%;
-      left:40%;
+      top:30%;
+      left:30%;
       z-index: 10;
        
      }
@@ -258,8 +258,8 @@ html, body {
 
      #logo_container{
        position:absolute;
-       top:40%;
-       left:40%;
+       top:30%;
+       left:30%;
        z-index: 11;
      }
 
