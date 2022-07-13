@@ -1,4 +1,4 @@
-# Sequence Screens
+# 7 Sequence Screens (Template)
 
 Mobile optimised code so you can start building your mobile web apps.
 
