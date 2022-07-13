@@ -210,7 +210,7 @@ to{transform: translateX(-400%)}
     position:relative;
     height:100%;
     width:100%;;
-    background: red;
+    background: #ff0000;
      border: 2px solid red;  
   }
 
@@ -218,7 +218,7 @@ to{transform: translateX(-400%)}
     position:relative; 
     height:100%;
     width:100%;
-    background: orange;
+    background: #ffa500;
      
   }
 
@@ -226,7 +226,7 @@ to{transform: translateX(-400%)}
     position:relative; 
     height:100%;
     width:100%;
-     background: hsl(295, 48%, 74%); 
+     background: #d79ede; 
     
   }
   
@@ -242,7 +242,7 @@ to{transform: translateX(-400%)}
     position:relative;    
     height:100%;
     width:100%;
-     background: blue; 
+     background: #0000ff; 
           
   }
 
@@ -250,7 +250,7 @@ to{transform: translateX(-400%)}
     position:relative;    
     height:100%;
     width:100%;
-    background: navajowhite; 
+    background: #ffdead; 
           
   }
      
