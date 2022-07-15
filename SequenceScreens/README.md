@@ -1,4 +1,4 @@
-# 7 Sequence Screens (Template)      ![icon1](../sr_assets/gif.gif) </br>
+# 7 Sequence Screens (Template)    
 
 <img src="../sr_assets/gif.gif" width="100" height="100">  </br>
 
