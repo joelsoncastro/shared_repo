@@ -1,5 +1,8 @@
 # 7 Sequence Screens (Template)      ![icon1](../sr_assets/gif.gif) </br>
 
+<img src="../sr_assets/gif.gif" width="100" height="100">  </br>
+
+
 Mobile optimised code so you can start building your mobile web apps.
 
 
