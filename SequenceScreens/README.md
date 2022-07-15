@@ -1,4 +1,4 @@
-# 7 Sequence Screens (Template)      ![icon1](./sr_assets/SequenceScreens/gif.gif) </br>
+# 7 Sequence Screens (Template)      ![icon1](./sr_assets/gif.gif) </br>
 
 Mobile optimised code so you can start building your mobile web apps.
 
