@@ -76,10 +76,10 @@ html, body {
       position: absolute;
       left: 0px;
       right: 0px;
-      top:0px;
-      bottom:0px;
+      top:40px;
+      bottom:-70px;
       overflow: hidden;
-      overflow-x:visible;
+      overflow-x:hidden;
       overflow-y:hidden; 
       border: 0px transparent green;      
       -webkit-overflow-scrolling: touch; 
@@ -273,9 +273,9 @@ html, body {
 
     .store_cart{
       position:absolute;
-      height:50px;
-      width:50px;
-      top:40%;
+      height:20px;
+      width:20px;
+      top:45%;
       border:0px solid red;
     }
 
@@ -285,23 +285,24 @@ html, body {
       position:absolute;
       left:0;
       right:0;
-      border:2px solid green;
-      height: 10%;
-      
+      border:0px solid green;
+      height: 8%;
+     
     }
 
     .left_arrow_container{
       position:absolute;
       height: 100%;
       width:10%;
+      border:0px solid black;
     }
 
     .left_arrow_1, .left_arrow_2, 
     .left_arrow_3, .left_arrow_4{
       position:absolute;
-      height:80px;
-      width:80px;
-      top:30%;
+      height:50px;
+      width:50px;
+      top:0%;
       border:0px solid red;
     }
 
@@ -318,11 +319,11 @@ html, body {
  
     .head_title{
       font-family: "Open Sans";
-      font-size: 45px;
+      font-size: 24px;
       font-weight: 700;
      
       padding-left:40%;
-      padding-top:6%;
+      padding-top:0%;
       
     }
 
@@ -339,7 +340,7 @@ html, body {
       left:0%;
       right:0%;
       bottom:0%;
-      border:4px transparent blue;
+      border:0px solid blue;
       overflow: auto;
       overflow-y: visible;
       
@@ -353,12 +354,11 @@ html, body {
     .product_2, .product_4, .product_6,
     .product_7, .product_8, .product_9,
     .product_10, .product_11, .product_12{
-      position:relative;
-      
+      position:relative;      
       margin-top:5%;
       padding-bottom: 5%;
-      height:500px;
-      width:480px;
+      height:200px;
+      width:180px;
       font-size: 28px;
       background-color: transparent;
       opacity:1;
@@ -424,11 +424,12 @@ html, body {
       border:0px solid red;
       
     }
+
     #store_title{
       position:absolute;
       color: #000000;
       font-family: "Open Sans";
-      font-size: 54px;
+      font-size: 22px;
       font-weight: 700;
       line-height: 22px;
       padding-top:15%;
