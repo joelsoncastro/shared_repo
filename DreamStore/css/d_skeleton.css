@@ -442,7 +442,7 @@ html, body {
 
     .button_container{
       position:absolute;
-      bottom:5%;
+      bottom:10%;
       left:0%;
       right:0%;
       height:10%;
@@ -466,7 +466,7 @@ html, body {
     .button_element_shadow {
       position: absolute;
       left: 10%;
-      top: 60px;
+      top: 40px;
       right: 10%;
       height: 50%;
       border-radius: 4px;
@@ -495,7 +495,7 @@ html, body {
       position:absolute;
       color: black;
       font-family: "Open Sans";
-      font-size: 58px;
+      font-size: 28px;
       font-weight: 700;
       line-height: 22px;
       
@@ -511,7 +511,7 @@ html, body {
       height:30%;
       left:0%;
       right:0%;
-      border:0px transparent rgb(255, 6, 6)
+      border:0px solid rgb(255, 6, 6)
     }
 
     #product_image{
@@ -519,26 +519,26 @@ html, body {
       top:-10%;
       left:20%;
       right:10%;
-      border:px transparent black;
+      border:0px solid black;
     }
 
     #product_title_description_container{
       position: absolute;
-      top:48%;
+      top:40%;
       left:0%;
       right:0%;
       height:5%;
-      border: 0px transparent purple;
+      border: 0px solid purple;
       background-color: transparent;
     }
 
     #product_description_container{
       position: absolute;
-      top:52%;
+      top:45.5%;
       left:0%;
       right:0%;
-      height:30%;
-      border: 0px transparent rgb(20, 14, 20);
+      height:15%;
+      border: 0px solid rgb(20, 14, 20);
       background-color: transparent;
       opacity:1;
     }
@@ -547,9 +547,9 @@ html, body {
       position:absolute;
       color: black;
       font-family: "Open Sans";
-      font-size: 30px;
+      font-size: 12px;
       
-      line-height: 30px;
+      line-height: 1.8;
       text-align: justify;
       left:10%;
       right:10%;
@@ -559,7 +559,7 @@ html, body {
       position:absolute;
       color: black;
       font-family: "Open Sans";
-      font-size: 35px;
+      font-size: 24px;
       font-weight: 700;
       line-height: 22px;
       left:10%;
@@ -568,18 +568,19 @@ html, body {
 
     .feedback_container{
       position: absolute;
-      top:68%;
+      top:62%;
       left:0%;
       right:0%;
       height:5%;
-      border: 0px transparent rgb(20, 14, 20);
+      border: 0px solid rgb(20, 14, 20);
       /*background-color: rgb(182, 182, 255);*/
       opacity:1;
     }
 
     #share_button{
         position:absolute;
-        left:10%
+        left:10%;
+        top:2;
     }
 
     #stars{
@@ -588,7 +589,7 @@ html, body {
     }
     
     .fa, .fa-star{
-      font-size:35px;
+      font-size:14px;
     }
 
     .checked {
@@ -597,50 +598,50 @@ html, body {
 
     #separation_dot{
       position:absolute;
-      font-size: 100px;
+      font-size: 45px;
       left:50%;
-      top:-65px;
+      margin-top:-28px;
     }
 
     #comments{
       position:absolute;
       left:58%;
       top: 4%;
-      font-size:25px;
+      font-size:10px;
       font-family: "Open Sans";
     }
 
     #like_button{
       position:absolute;
-      top:-2;
+      top:0;
       right:17%;
     }
 
     #price{
       position:absolute;
       right:12%;
-      font-size: 65px;
+      font-size: 16px;
       top:15%;
       font-family: "Open Sans";
     }
 
     #AKZ{
       position:absolute;
-      font-size:18px;
+      font-size:10px;
       top:-20px;
       
     }
 
     #price_container{
       position:absolute;
-      bottom:10%;
-      height:15%;
+      bottom:20%;
+      height:10%;
       left:0%;
       right:0%;
+      border: 0px solid purple;
       /* background-color: rgb(184, 255, 184);*/
       opacity:1;
     }    
-
                                                                     /*-------------------------- Screen 4 --------------------------*/
 
     #product_summary_container{
@@ -651,10 +652,7 @@ html, body {
       bottom:20%;
       border:0px solid blue;
       overflow: auto;
-      overflow-y: visible;
-      
-     
-      
+      overflow-y: visible;      
     }
     
     .summary_list_1, .summary_list_2, .summary_list_3, 
