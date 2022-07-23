@@ -1,7 +1,5 @@
 $(document).ready(function () {
     
-    
-    
     var screen_time= setInterval(first_screen_nav, 5000);
     product_nav()
 
@@ -16,20 +14,15 @@ $(document).ready(function () {
 
     function product_nav()
     {
-       
         console.log("Done 2")
         
         var item_number=1
         var screen_cont= document.getElementById("screens_container");
         var total_products_number= document.getElementById("products_main_container").childElementCount;
-            console.log(total_products_number)            
-        
-             
+        console.log(total_products_number)            
 
         while(item_number <= total_products_number )
         {
-            
-
             $('.product_'+ item_number).click(function () 
             {
                 console.log("clicked me")
