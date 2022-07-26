@@ -8,9 +8,7 @@ html, body {
    overflow-y: hidden;
    overflow-x:hidden;
    -moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;
-   
-                                
- }
+}
 
 @media (min-width: 1281px) {
   
