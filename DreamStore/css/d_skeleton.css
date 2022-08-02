@@ -729,7 +729,7 @@ html, body {
       left:0%;
       right:0%;
       border:0px solid black;
-      height:20%;
+      height:16%;
       margin-top:25%;
       }
 
@@ -738,7 +738,7 @@ html, body {
       left:0%;
       right:0%;
       border:0px solid green;
-      height:20%;
+      height:16%;
       margin-top: 75%;
       }
 
@@ -759,7 +759,7 @@ html, body {
       bottom:0%;
       top:0%;
       font-family: "Open Sans";
-      font-size:30px;
+      font-size:16px;
       border:0px transparent green;
     }
 
