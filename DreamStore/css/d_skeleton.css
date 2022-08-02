@@ -495,8 +495,7 @@ html, body {
       font-family: "Open Sans";
       font-size: 28px;
       font-weight: 700;
-      line-height: 22px;
-      
+      line-height: 22px;      
       top:0%;
       height:100%;
       margin-left:35%;
@@ -814,7 +813,7 @@ html, body {
       right:5%;
       top:15%;
       bottom:15%;
-      border: 0px solid transparent;
+      border: 2px solid transparent;
 
     }
  
@@ -863,7 +862,7 @@ html, body {
   position:relative;
   left:5%;
   font-family: "Open Sans";
-  font-size:24px;
+  font-size:12px;
   font-weight: 700;
   
 }
@@ -878,7 +877,7 @@ html, body {
   position:relative;
   left: 0%;
   font-family: "Open Sans";
-  font-size:24px;
+  font-size:12px;
   font-weight: 700;
 }
 
@@ -889,16 +888,16 @@ html, body {
   right:0px;
   height:30%;
   background-color: transparent;
-  padding-top: 5%
+  padding-top: 2%;
   
 }    
 
 #imagem_produto_sumario_1{
   position:absolute;
-  height:75%;
-  width:145px;
-  border-radius:15px;
-  background-color: D6E6D9 ;
+  height:65%;
+  width:45px;
+  border-radius:5px;
+  background-color: #D6E6D9 ;
 }
 
 
@@ -907,7 +906,7 @@ html, body {
   left:25%;
   top:50%;
   font-family: "Open Sans";
-  font-size:24px;
+  font-size:12px;
   font-weight: 700;
 }
 
@@ -917,7 +916,7 @@ html, body {
   left:55%;
   top:50%;
   font-family: "Open Sans";
-  font-size:24px;
+  font-size:12px;
   font-weight: 700;
 }
 #preco_produto_sumario_1{
@@ -925,14 +924,14 @@ html, body {
   left:75%;
   top:50%;
   font-family: "Open Sans";
-  font-size:24px;
+  font-size:12px;
   font-weight: 700;
 }
 
 #total_titulo_sumario{
   position:absolute;
   font-family: "Open Sans";
-  font-size:52px;
+  font-size:16px;
   font-weight: 700;
   top:30%;
 }
@@ -942,7 +941,7 @@ html, body {
   left:75%;
   top:30%;
   font-family: "Open Sans";
-  font-size:43px;
+  font-size:12px;
   font-weight: 700;
 }
 
@@ -954,7 +953,7 @@ html, body {
   height:200px;
   border:0px solid black;
   font-family: "Open Sans";
-  font-size:24px;
+  font-size:14px;
   font-weight: 700;
   text-align: center;
    
